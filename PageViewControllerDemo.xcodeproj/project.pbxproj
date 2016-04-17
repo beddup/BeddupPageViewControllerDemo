@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D22D6931CC3882100843301 /* BeddupPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D6901CC3882100843301 /* BeddupPageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8D22D6941CC3882100843301 /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D6921CC3882100843301 /* TitleBarView.m */; settings = {ASSET_TAGS = (); }; };
+		8D22D6BA1CC3895100843301 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D6B91CC3895100843301 /* ContentViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8D4B04A81BE21532006CC533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B04A71BE21532006CC533 /* main.m */; };
 		8D4B04AB1BE21532006CC533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B04AA1BE21532006CC533 /* AppDelegate.m */; };
-		8D4B04AE1BE21532006CC533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B04AD1BE21532006CC533 /* ViewController.m */; };
-		8D4B04B11BE21532006CC533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B04AF1BE21532006CC533 /* Main.storyboard */; };
 		8D4B04B31BE21533006CC533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B04B21BE21533006CC533 /* Assets.xcassets */; };
 		8D4B04B61BE21533006CC533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B04B41BE21533006CC533 /* LaunchScreen.storyboard */; };
-		8D4B04C11BE21533006CC533 /* PageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B04C01BE21533006CC533 /* PageViewControllerDemoTests.m */; };
-		8D4B04CC1BE21533006CC533 /* PageViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B04CB1BE21533006CC533 /* PageViewControllerDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +34,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D22D68F1CC3882100843301 /* BeddupPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeddupPageViewController.h; sourceTree = "<group>"; };
+		8D22D6901CC3882100843301 /* BeddupPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeddupPageViewController.m; sourceTree = "<group>"; };
+		8D22D6911CC3882100843301 /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		8D22D6921CC3882100843301 /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
+		8D22D6B81CC3895100843301 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		8D22D6B91CC3895100843301 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		8D4B04A31BE21532006CC533 /* PageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4B04A71BE21532006CC533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D4B04A91BE21532006CC533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D4B04AA1BE21532006CC533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D4B04AC1BE21532006CC533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D4B04AD1BE21532006CC533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8D4B04B01BE21532006CC533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D4B04B21BE21533006CC533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4B04B51BE21533006CC533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4B04B71BE21533006CC533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4B04BC1BE21533006CC533 /* PageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D4B04C01BE21533006CC533 /* PageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerDemoTests.m; sourceTree = "<group>"; };
-		8D4B04C21BE21533006CC533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4B04C71BE21533006CC533 /* PageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D4B04CB1BE21533006CC533 /* PageViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerDemoUITests.m; sourceTree = "<group>"; };
-		8D4B04CD1BE21533006CC533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				8D4B04A51BE21532006CC533 /* PageViewControllerDemo */,
-				8D4B04BF1BE21533006CC533 /* PageViewControllerDemoTests */,
-				8D4B04CA1BE21533006CC533 /* PageViewControllerDemoUITests */,
 				8D4B04A41BE21532006CC533 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,9 +99,12 @@
 			children = (
 				8D4B04A91BE21532006CC533 /* AppDelegate.h */,
 				8D4B04AA1BE21532006CC533 /* AppDelegate.m */,
-				8D4B04AC1BE21532006CC533 /* ViewController.h */,
-				8D4B04AD1BE21532006CC533 /* ViewController.m */,
-				8D4B04AF1BE21532006CC533 /* Main.storyboard */,
+				8D22D6B81CC3895100843301 /* ContentViewController.h */,
+				8D22D6B91CC3895100843301 /* ContentViewController.m */,
+				8D22D68F1CC3882100843301 /* BeddupPageViewController.h */,
+				8D22D6901CC3882100843301 /* BeddupPageViewController.m */,
+				8D22D6911CC3882100843301 /* TitleBarView.h */,
+				8D22D6921CC3882100843301 /* TitleBarView.m */,
 				8D4B04B21BE21533006CC533 /* Assets.xcassets */,
 				8D4B04B41BE21533006CC533 /* LaunchScreen.storyboard */,
 				8D4B04B71BE21533006CC533 /* Info.plist */,
@@ -120,24 +119,6 @@
 				8D4B04A71BE21532006CC533 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8D4B04BF1BE21533006CC533 /* PageViewControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8D4B04C01BE21533006CC533 /* PageViewControllerDemoTests.m */,
-				8D4B04C21BE21533006CC533 /* Info.plist */,
-			);
-			path = PageViewControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		8D4B04CA1BE21533006CC533 /* PageViewControllerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8D4B04CB1BE21533006CC533 /* PageViewControllerDemoUITests.m */,
-				8D4B04CD1BE21533006CC533 /* Info.plist */,
-			);
-			path = PageViewControllerDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +226,6 @@
 			files = (
 				8D4B04B61BE21533006CC533 /* LaunchScreen.storyboard in Resources */,
 				8D4B04B31BE21533006CC533 /* Assets.xcassets in Resources */,
-				8D4B04B11BE21532006CC533 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4B04AE1BE21532006CC533 /* ViewController.m in Sources */,
 				8D4B04AB1BE21532006CC533 /* AppDelegate.m in Sources */,
+				8D22D6BA1CC3895100843301 /* ContentViewController.m in Sources */,
+				8D22D6931CC3882100843301 /* BeddupPageViewController.m in Sources */,
 				8D4B04A81BE21532006CC533 /* main.m in Sources */,
+				8D22D6941CC3882100843301 /* TitleBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4B04C11BE21533006CC533 /* PageViewControllerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4B04CC1BE21533006CC533 /* PageViewControllerDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +288,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D4B04AF1BE21532006CC533 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D4B04B01BE21532006CC533 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D4B04B41BE21533006CC533 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Beddup.PageViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Beddup.PageViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +472,7 @@
 				8D4B04D21BE21533006CC533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4B04D31BE21533006CC533 /* Build configuration list for PBXNativeTarget "PageViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +481,7 @@
 				8D4B04D51BE21533006CC533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4B04D61BE21533006CC533 /* Build configuration list for PBXNativeTarget "PageViewControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +490,7 @@
 				8D4B04D81BE21533006CC533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

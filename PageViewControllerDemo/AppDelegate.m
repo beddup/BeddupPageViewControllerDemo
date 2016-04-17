@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BeddupPageViewController.h"
+#import "ContentViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSArray* titles = @[@"财经",@"体育",@"娱乐",@"互联网"];
+
+    ContentViewController* financeVC = [[ContentViewController alloc] initWithTitle:titles[0]];
+    ContentViewController* sportsVC = [[ContentViewController alloc] initWithTitle:titles[1]];
+    ContentViewController* entertainment = [[ContentViewController alloc] initWithTitle:titles[2]];
+    ContentViewController* internetVC = [[ContentViewController alloc] initWithTitle:titles[3]];
+
+    BeddupPageViewController* vc = [[BeddupPageViewController alloc] initWithSubTitles:titles controllers:@[financeVC,sportsVC,entertainment,internetVC]];
+    UINavigationController* nav = [[UINavigationController alloc]initWithRootViewController:vc];
+
+    self.window =  [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

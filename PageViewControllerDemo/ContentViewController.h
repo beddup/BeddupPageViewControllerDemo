@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstVC.h
 //  PageViewControllerDemo
 //
 //  Created by Amay on 10/29/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ContentViewController : UIViewController
+
+-(instancetype)initWithTitle:(NSString *)title;
 
 
 @end
-
